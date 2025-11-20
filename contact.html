@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0787ffa9;
+      color: #ffffff;
+    }
+
+nav {
+      background-color: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      display: flex;
+      justify-content: center;
+      padding: 12px 0;
+    }
+
+nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: 700;
+      transition: 0.5s;
+    }
+
+nav a:hover {
+      
+      transform: scale(1.2)
+    }
+
+h1{
+  text-align: center;}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+    
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: rgba(255,255,255,0.2);
+    color: #fff;
+    backdrop-filter: blur(8px);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+    <a href="webdevelopment.html">Home</a> |
+    <a href="CV_Ervan_Nuhaa_Anggrana.pdf">Download CV</a> |
+    <a href="contact.html">Contact</a> |
+    <a href="aboutme.html">About Me</a> 
+  </nav>
+<h1> Contact me </h1>
+<form>
+    <label for="email">Email</label><br />
+    <input type="email" name="email" placeholder="Alamat Email"/>
+    <br />
+    <label for="message">Pesan</label><br />
+    <textarea name="message" placeholder="Tulis Pesan Anda" rows="4%" cols="50%"></textarea>
+    <br />
+    <input type="submit" value="Kirim">
+</form>
+<footer style="text-align: center;">
+    <p>© 2025 Pan. All rights reserved.</p>
+  </footer>
+</body>
+</html>
